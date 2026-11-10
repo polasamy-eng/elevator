@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ڤيرتكس للمصاعد | توريد وتركيب وصيانة المصاعد</title>
+<meta name="description" content="ڤيرتكس للمصاعد: توريد وتركيب وصيانة وتجديد المصاعد بإشراف المهندس محمد صبري. صيانة وطوارئ 24/7. احجز معاينة الآن.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=Almarai:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#12203A;--deep:#0B1626;--brass:#C79A3C;--soft:#E4C989;--cream:#F7F4EC;--sand:#F1ECDF;--ink:#1D2430;--steel:#5B6472;--line:#D9D2BE;--wa:#25D366}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--cream);color:var(--ink);font-family:'Almarai',sans-serif;line-height:1.8;overflow-x:hidden}
+h1,h2,h3,.num,.big{font-family:'Tajawal',sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+.eyebrow{color:var(--brass);font-weight:700;font-size:.92rem;margin-bottom:8px}
+h2{font-size:clamp(1.55rem,3.2vw,2.2rem);font-weight:900;line-height:1.35;max-width:20em}
+.lead{color:var(--steel);max-width:44em;margin-top:12px}
+section{padding:76px 0}
+.btn{display:inline-block;padding:14px 26px;border-radius:4px;font-weight:700;font-family:'Tajawal',sans-serif}
+.btn-wa{background:var(--wa);color:#073B1C}
+.btn-brass{background:var(--brass);color:var(--deep)}
+.btn-line{border:1px solid rgba(255,255,255,.4);color:var(--cream)}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--navy);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;max-width:1120px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:10px;color:var(--cream);font-family:'Tajawal',sans-serif;font-weight:900;font-size:1.2rem}
+.mark{width:34px;height:34px;border:2px solid var(--brass);border-radius:4px;display:grid;place-items:center;color:var(--brass);font-size:.95rem}
+.links{display:flex;gap:26px;color:#C9CFDA;font-size:.94rem}
+.links a:hover{color:var(--soft)}
+.call{background:var(--brass);color:var(--deep);font-weight:700;padding:9px 18px;border-radius:4px;font-size:.9rem;white-space:nowrap}
+@media(max-width:780px){.links{display:none}}
+
+/* hero */
+.hero{background:linear-gradient(180deg,var(--navy),var(--deep));color:var(--cream);padding:64px 0 80px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;top:0;bottom:0;left:12%;width:2px;background:linear-gradient(transparent,var(--brass) 25%,var(--brass) 75%,transparent);opacity:.4}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:44px;align-items:center}
+.hero h1{font-size:clamp(2rem,4.8vw,3.2rem);font-weight:900;line-height:1.3}
+.hero h1 b{color:var(--brass)}
+.hero p{margin-top:20px;color:#C9CFDA;font-size:1.06rem;max-width:36em}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.chips{display:flex;gap:18px;flex-wrap:wrap;margin-top:28px;color:var(--soft);font-size:.92rem}
+.panel{border:1px solid rgba(255,255,255,.16);border-radius:8px;background:rgba(255,255,255,.04);padding:22px}
+.panel .lbl{font-size:.72rem;letter-spacing:.08em;color:#9AA4B5}
+.display{display:flex;align-items:center;gap:14px;margin:10px 0 16px;background:var(--deep);border:1px solid rgba(255,255,255,.1);border-radius:6px;padding:14px 18px}
+.display .big{font-size:3rem;font-weight:900;color:var(--brass);line-height:1;min-width:1.2em;text-align:center}
+.display .arrow{font-size:1.6rem;color:var(--soft)}
+.display small{color:#9AA4B5;font-size:.8rem}
+.shaft{display:flex;gap:6px}
+.shaft i{flex:1;height:8px;border-radius:2px;background:rgba(255,255,255,.12);transition:.3s}
+.shaft i.on{background:var(--brass)}
+.panel .meta{display:flex;justify-content:space-between;margin-top:18px;font-size:.88rem;color:#C9CFDA}
+.panel .meta b{display:block;font-family:'Tajawal',sans-serif;font-size:1.5rem;color:var(--cream)}
+@media(max-width:820px){.hero-grid{grid-template-columns:1fr}}
+
+/* stats */
+.stats{background:var(--navy);color:var(--cream);padding:36px 0}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.stats b{display:block;font-family:'Tajawal',sans-serif;font-size:2.1rem;font-weight:900;color:var(--brass)}
+.stats span{font-size:.88rem;color:#AEB6C4}
+@media(max-width:700px){.stats .wrap{grid-template-columns:1fr 1fr;row-gap:26px}}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.about p{color:var(--steel);margin-top:14px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.tags span{border:1px solid var(--line);padding:4px 14px;border-radius:99px;font-size:.86rem;color:var(--steel);background:#fff}
+.eng{background:linear-gradient(160deg,var(--navy),var(--deep));color:var(--cream);border-radius:8px;padding:30px}
+.eng .av{width:76px;height:76px;border:2px solid var(--brass);border-radius:50%;display:grid;place-items:center;color:var(--brass);margin-bottom:16px}
+.eng h3{font-size:1.25rem}
+.eng .t{color:var(--brass);font-weight:700;font-size:.92rem}
+.eng ul{list-style:none;margin-top:14px;display:grid;gap:8px;color:#C9CFDA;font-size:.93rem}
+.eng li::before{content:"—";color:var(--brass);margin-inline-end:8px}
+@media(max-width:800px){.about{grid-template-columns:1fr}}
+
+/* solutions */
+.sol{background:var(--sand)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.card{background:var(--cream);border:1px solid var(--line);border-radius:8px;padding:26px}
+.card .ic{width:44px;height:44px;border-radius:8px;background:var(--navy);color:var(--brass);display:grid;place-items:center;font-size:1.3rem;margin-bottom:14px}
+.card h3{font-size:1.08rem;font-weight:700}
+.card p{color:var(--steel);font-size:.94rem;margin-top:6px}
+@media(max-width:860px){.grid3{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.grid3{grid-template-columns:1fr}}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px 44px;margin-top:36px}
+.why-grid div{border-top:2px solid var(--brass);padding-top:14px}
+.why-grid h3{font-size:1.05rem}
+.why-grid p{color:var(--steel);font-size:.94rem;margin-top:4px}
+@media(max-width:700px){.why-grid{grid-template-columns:1fr}}
+
+/* steps */
+.steps{background:var(--navy);color:var(--cream)}
+.steps .lead{color:#AEB6C4}
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:38px}
+.step{border:1px solid rgba(255,255,255,.14);border-radius:8px;padding:24px;background:rgba(255,255,255,.03)}
+.step .num{font-size:2rem;font-weight:900;color:var(--brass)}
+.step h3{font-size:1.02rem;margin-top:4px}
+.step p{color:#AEB6C4;font-size:.9rem;margin-top:6px}
+@media(max-width:900px){.timeline{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.timeline{grid-template-columns:1fr}}
+
+/* work */
+.work{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:34px}
+.work figure{background:linear-gradient(160deg,var(--navy),var(--deep));border-radius:8px;overflow:hidden}
+.work svg{width:100%;aspect-ratio:4/3;padding:16px;display:block}
+.work figcaption{padding:12px 14px 16px;color:var(--cream);font-size:.86rem;border-top:1px solid rgba(255,255,255,.1)}
+@media(max-width:860px){.work{grid-template-columns:1fr 1fr}}
+
+/* faq */
+.faq{background:var(--sand)}
+details{background:var(--cream);border:1px solid var(--line);border-radius:8px;padding:18px 22px;margin-top:12px}
+summary{cursor:pointer;font-weight:700;font-family:'Tajawal',sans-serif;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::after{content:"+";color:var(--brass);font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"−"}
+details p{color:var(--steel);margin-top:10px;font-size:.96rem}
+
+/* contact */
+.contact{background:var(--navy);color:var(--cream)}
+.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.contact p{color:#C9CFDA;margin-top:14px;max-width:32em}
+.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.14);border-radius:8px;padding:26px}
+.box .row{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.box .row:last-of-type{border:0}
+.box .k{color:#9AA4B5;font-size:.9rem}
+.box .v{font-weight:700;color:var(--soft)}
+.box .btn{display:block;text-align:center;margin-top:12px}
+@media(max-width:800px){.contact-grid{grid-template-columns:1fr}}
+footer{background:var(--deep);color:#7C8497;text-align:center;padding:24px 0;font-size:.85rem}
+
+/* ---- visual upgrade ---- */
+.hero{background:
+  radial-gradient(900px 420px at 85% 10%,rgba(199,154,60,.22),transparent 60%),
+  linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px) 0 0/44px 44px,
+  linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px) 0 0/44px 44px,
+  linear-gradient(180deg,#14264A,var(--deep));padding-bottom:110px;clip-path:polygon(0 0,100% 0,100% 94%,0 100%)}
+.stats{margin-top:-1px}
+.panel{background:linear-gradient(160deg,rgba(255,255,255,.08),rgba(255,255,255,.02));backdrop-filter:blur(6px);box-shadow:0 30px 60px rgba(0,0,0,.35)}
+.stage{display:flex;justify-content:center;margin:6px 0 10px}
+.stage svg{width:100%;max-width:230px;height:auto}
+#car{transition:transform 1.2s cubic-bezier(.65,0,.35,1)}
+.card{position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s,border-color .25s}
+.card::before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:linear-gradient(90deg,var(--brass),transparent)}
+.card:hover{transform:translateY(-6px);box-shadow:0 18px 36px rgba(18,32,58,.14);border-color:var(--brass)}
+.card .ic{width:52px;height:52px;font-size:1.5rem;background:linear-gradient(145deg,#1B3158,var(--deep));box-shadow:0 6px 14px rgba(18,32,58,.25),inset 0 0 0 1px rgba(199,154,60,.35)}
+.sol{position:relative;background:linear-gradient(180deg,var(--sand),#EAE3D0)}
+.step{transition:transform .25s,background .25s}
+.step:hover{transform:translateY(-5px);background:rgba(199,154,60,.1)}
+.step .num{background:linear-gradient(135deg,var(--soft),var(--brass));-webkit-background-clip:text;background-clip:text;color:transparent;font-size:2.6rem}
+.steps{background:radial-gradient(700px 300px at 15% 0,rgba(199,154,60,.14),transparent 60%),var(--navy)}
+.why-grid div{background:#fff;border:1px solid var(--line);border-top:3px solid var(--brass);border-radius:8px;padding:22px;transition:.25s}
+.why-grid div:hover{box-shadow:0 14px 30px rgba(18,32,58,.1);transform:translateY(-4px)}
+.work figure{transition:transform .25s;box-shadow:0 10px 24px rgba(18,32,58,.18)}
+.work figure:hover{transform:scale(1.03)}
+.work svg{background:radial-gradient(circle at 50% 30%,rgba(199,154,60,.18),transparent 65%)}
+.contact{background:radial-gradient(700px 320px at 90% 0,rgba(199,154,60,.18),transparent 60%),var(--navy)}
+.eng{box-shadow:0 24px 50px rgba(11,22,38,.3);position:relative;overflow:hidden}
+.eng::after{content:"";position:absolute;width:220px;height:220px;border-radius:50%;left:-70px;bottom:-90px;background:radial-gradient(circle,rgba(199,154,60,.35),transparent 70%)}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}
+.rv.in{opacity:1;transform:none}
+.fab{animation:pulse 2.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}70%{box-shadow:0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.fab{animation:none}#car{transition:none}}
+/* floating whatsapp */
+.fab{position:fixed;bottom:18px;left:18px;z-index:60;background:var(--wa);color:#073B1C;font-weight:700;font-family:'Tajawal',sans-serif;padding:12px 18px;border-radius:99px;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="brand" href="#top"><span class="mark">ڤ</span>ڤيرتكس للمصاعد</a>
+    <nav class="links">
+      <a href="#solutions">حلولنا</a><a href="#why">لماذا ڤيرتكس؟</a><a href="#steps">خطوات التنفيذ</a><a href="#work">أعمالنا</a><a href="#guide">دليل المصاعد</a><a href="#faq">الأسئلة الشائعة</a>
+    </nav>
+    <a class="call" href="tel:01254458177">اتصل الآن</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">أمانك يبدأ من هندسة صح</div>
+      <h1>مصعد يليق بمبناك. <b>وأمان تعتمد عليه.</b></h1>
+      <p>من المعاينة واختيار المكونات، لحد التركيب والتشغيل والصيانة — ڤيرتكس بتقدملك حلول هندسية متكاملة بإشراف المهندس محمد صبري.</p>
+      <div class="ctas">
+        <a class="btn btn-wa" href="https://wa.me/201254458177?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%AD%D8%AC%D8%B2%20%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9%20%D9%84%D9%84%D9%85%D8%B5%D8%B9%D8%AF" target="_blank" rel="noopener">احجز معاينة عبر واتساب ←</a>
+        <a class="btn btn-line" href="#solutions">استكشف الحلول</a>
+      </div>
+      <div class="chips"><span>✓ صيانة ودعم 24/7</span><span>✓ فنيون مدرّبون</span><span>✓ حلول حسب طبيعة المبنى</span></div>
+    </div>
+    <div class="panel" aria-hidden="true">
+      <div class="lbl">ELEVATOR STATUS</div>
+      <div class="display"><span class="arrow" id="arrow">↑</span><span class="big" id="floor">1</span><small>/ 6</small></div>
+      <div class="stage">
+        <svg viewBox="0 0 220 290" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="30" y="8" width="160" height="274" rx="6" fill="rgba(11,22,38,.55)" stroke="#C79A3C" stroke-opacity=".5" stroke-width="2"/>
+          <path d="M72 8v274M148 8v274" stroke="#C79A3C" stroke-opacity=".35" stroke-width="2"/>
+          <g stroke="#fff" stroke-opacity=".12" stroke-width="1.5">
+            <path d="M30 52h42M148 52h42M30 96h42M148 96h42M30 140h42M148 140h42M30 184h42M148 184h42M30 228h42M148 228h42"/>
+          </g>
+          <g fill="#9AA4B5" font-size="10" font-family="Tajawal,sans-serif" text-anchor="middle">
+            <text x="51" y="270">1</text><text x="51" y="226">2</text><text x="51" y="182">3</text><text x="51" y="138">4</text><text x="51" y="94">5</text><text x="51" y="50">6</text>
+          </g>
+          <line id="cable" x1="110" y1="8" x2="110" y2="230" stroke="#C79A3C" stroke-width="2"/>
+          <g id="car" style="transform:translateY(0)">
+            <rect x="80" y="232" width="60" height="44" rx="4" fill="#12203A" stroke="#C79A3C" stroke-width="2.5"/>
+            <path d="M110 232v44" stroke="#C79A3C" stroke-opacity=".6" stroke-width="2"/>
+            <rect x="87" y="240" width="16" height="30" fill="#C79A3C" fill-opacity=".18"/>
+            <rect x="117" y="240" width="16" height="30" fill="#C79A3C" fill-opacity=".18"/>
+          </g>
+        </svg>
+      </div>
+      <div class="meta"><div><b>24/7</b>دعم وصيانة</div><div><b>30د</b>متوسط الاستجابة</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="stats"><div class="wrap">
+  <div><b data-n="15" data-p="+">+15</b><span>سنة خبرة ميدانية</span></div>
+  <div><b>24/7</b><span>استجابة للأعطال</span></div>
+  <div><b>360°</b><span>توريد + تركيب + صيانة</span></div>
+  <div><b data-n="300" data-p="+">+300</b><span>مصعد تحت الصيانة</span></div>
+</div></div>
+
+<section id="about">
+  <div class="wrap about">
+    <div>
+      <div class="eyebrow">عن ڤيرتكس</div>
+      <h2>خبرة هندسية وحلول متكاملة للمصاعد</h2>
+      <p>ڤيرتكس للمصاعد شركة متخصصة في توريد وتركيب وصيانة وتجديد جميع أنواع المصاعد، بإدارة فنية مباشرة من المهندس محمد صبري، وبفريق بيشتغل بدقة وبيلتزم بمعايير السلامة.</p>
+      <p>بنبدأ بمعاينة هندسية، نحدد الحل المناسب لطبيعة المبنى والاستخدام، وبعدها نكمل معاك لحد ما المصعد يشتغل بكفاءة وصيانة منتظمة بعد التشغيل.</p>
+      <div class="tags"><span>توريد</span><span>تركيب</span><span>صيانة دورية</span><span>صيانة طارئة</span><span>إحلال وتجديد</span></div>
+    </div>
+    <div class="eng">
+      <div class="av"><svg width="40" height="40" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><circle cx="50" cy="34" r="18"/><path d="M16 92c3-24 17-34 34-34s31 10 34 34"/></svg></div>
+      <h3>المهندس محمد صبري</h3>
+      <div class="t">مهندس المصاعد — المدير الفني</div>
+      <ul>
+        <li>أكثر من 15 سنة في تركيب وصيانة المصاعد</li>
+        <li>خبرة في مصاعد الركاب والبضائع والفيلات</li>
+        <li>إشراف مباشر على الفريق الفني وعقود الصيانة</li>
+      </ul>
+      <a class="btn btn-brass" style="margin-top:20px" href="tel:01254458177">01254458177</a>
+    </div>
+  </div>
+</section>
+
+<section class="sol" id="solutions">
+  <div class="wrap">
+    <div class="eyebrow">حلول متكاملة</div>
+    <h2>اختار الحل المناسب لمبناك، مش مجرد نوع مصعد.</h2>
+    <p class="lead">بنحدد الحل طبقًا للارتفاع، الاستخدام، المساحة، الحمولة، وطبيعة المبنى والميزانية.</p>
+    <div class="grid3">
+      <div class="card"><div class="ic">↕</div><h3>مصاعد ركاب</h3><p>للعمارات والفيلات والمباني الإدارية بتشطيبات وأنظمة تشغيل متنوعة.</p></div>
+      <div class="card"><div class="ic">✚</div><h3>مصاعد مستشفيات</h3><p>حلول تناسب أبعاد النقالات والتشغيل المستمر مع اهتمام أكبر بالأمان.</p></div>
+      <div class="card"><div class="ic">▣</div><h3>مصاعد بضائع</h3><p>حمولات وتجهيزات تناسب المخازن والمصانع والمنشآت التجارية.</p></div>
+      <div class="card"><div class="ic">⚙</div><h3>صيانة دورية وطارئة</h3><p>فحص منتظم وتدخل سريع لأي عطل على مدار الساعة.</p></div>
+      <div class="card"><div class="ic">↻</div><h3>إحلال وتجديد</h3><p>تحديث المصاعد القائمة ورفع كفاءة المحركات والتحكم والكابينة.</p></div>
+      <div class="card"><div class="ic">☰</div><h3>عقود صيانة سنوية</h3><p>باقات واضحة وأسعار ثابتة لإدارات العقارات والمجمعات.</p></div>
+      <div class="card"><div class="ic">⌂</div><h3>مصاعد فيلات</h3><p>مصاعد مدمجة تناسب المساحات المحدودة وتضيف راحة لسكان الفيلا.</p></div>
+      <div class="card"><div class="ic">◇</div><h3>بانوراما وهيدروليك</h3><p>خيارات للمشروعات اللي محتاجة شكل مميز أو ظروف تركيب خاصة.</p></div>
+      <div class="card"><div class="ic">≡</div><h3>مصاعد خدمة وطعام</h3><p>حلول عملية لنقل الأغراض والأطعمة في المطاعم والفنادق.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="wrap">
+    <div class="eyebrow">لماذا ڤيرتكس؟</div>
+    <h2>لأن قرار المصعد ما ينفعش يتبني على السعر فقط.</h2>
+    <p class="lead">التركيب الجيد يبدأ بدراسة صحيحة وينتهي بخدمة ما بعد البيع.</p>
+    <div class="why-grid">
+      <div><h3>استشارة هندسية قبل التنفيذ</h3><p>تحديد النظام والمكونات الأنسب لطبيعة المبنى.</p></div>
+      <div><h3>اختيارات مكونات متعددة</h3><p>محركات وأبواب وأنظمة تحكم حسب طبيعة المشروع وميزانيته.</p></div>
+      <div><h3>خدمة ما بعد التشغيل</h3><p>صيانة دورية وتقرير فني واضح بعد كل زيارة.</p></div>
+      <div><h3>إحلال وتجديد بدل الاستبدال الكامل</h3><p>نفحص المصعد القديم ونحدد اللي محتاج تحديث فعلًا.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="steps" id="steps">
+  <div class="wrap">
+    <div class="eyebrow">مراحل تركيب المصعد</div>
+    <h2>من المعاينة لحد التشغيل — كل مرحلة تحت إشراف هندسي</h2>
+    <p class="lead">بعد معاينة الموقع وتحديد المواصفات، يتم التنفيذ على مراحل واضحة، مع إمكانية إضافة Inverter لحركة وتوقف أهدى وأدق.</p>
+    <div class="timeline">
+      <div class="step"><div class="num">01</div><h3>المعاينة وتحديد المواصفات</h3><p>معاينة الموقع بواسطة مهندس متخصص واختيار المواصفات المناسبة.</p></div>
+      <div class="step"><div class="num">02</div><h3>الأبواب والدلائل</h3><p>تركيب أبواب المصعد والدلائل بواسطة فنيين متخصصين.</p></div>
+      <div class="step"><div class="num">03</div><h3>الماكينة والكابينة</h3><p>تركيب الماكينة والكابينة وضبط العناصر الميكانيكية.</p></div>
+      <div class="step"><div class="num">04</div><h3>الكهرباء والكنترول</h3><p>تركيب الكنترول واختبارات التشغيل والتسليم.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="eyebrow">معرض أعمالنا</div>
+    <h2>شوف التفاصيل قبل ما تبدأ مشروعك</h2>
+    <div class="work">
+      <figure><svg viewBox="0 0 200 150" fill="none" stroke="#C79A3C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="20" y="14" width="60" height="122" rx="3"/><line x1="20" y1="46" x2="80" y2="46"/><line x1="20" y1="78" x2="80" y2="78"/><circle cx="130" cy="70" r="30"/><circle cx="130" cy="70" r="6" fill="#C79A3C"/><path d="M130 40v12M130 88v12M100 70h12M148 70h12"/></svg><figcaption>فحص محرك الجر</figcaption></figure>
+      <figure><svg viewBox="0 0 200 150" fill="none" stroke="#C79A3C" stroke-width="2.4" stroke-linecap="round"><path d="M60 8v134M140 8v134"/><path d="M60 30q40 14 0 28q-40 14 0 28q40 14 0 28"/><path d="M140 30q-40 14 0 28q40 14 0 28q-40 14 0 28"/><circle cx="100" cy="75" r="9" fill="#C79A3C" stroke="none"/></svg><figcaption>فحص كابلات التعليق</figcaption></figure>
+      <figure><svg viewBox="0 0 200 150" fill="none" stroke="#C79A3C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="55" y="16" width="90" height="118" rx="4"/><circle cx="80" cy="42" r="8"/><circle cx="120" cy="42" r="8"/><path d="M70 70h60M70 86h60M70 102h40"/></svg><figcaption>معايرة لوحة التحكم</figcaption></figure>
+      <figure><svg viewBox="0 0 200 150" fill="none" stroke="#C79A3C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="50" y="14" width="100" height="122" rx="3"/><path d="M100 14v122"/><path d="M92 75h-8M108 75h8"/></svg><figcaption>تركيب الأبواب والدلائل</figcaption></figure>
+    </div>
+    <p class="lead" style="margin-top:20px">لإضافة صور أعمالكم الحقيقية، ارفع الصور في نفس مجلد الموقع وهتتحط مكان الرسومات.</p>
+  </div>
+</section>
+
+<section id="guide">
+  <div class="wrap">
+    <div class="eyebrow">دليل المصاعد</div>
+    <h2>معلومات تساعدك تاخد قرار صح قبل ما تبدأ</h2>
+    <p class="lead">أهم الأسئلة اللي بنتسأل عنها في المعاينات، باختصار وبشكل عملي.</p>
+    <div class="grid3" style="grid-template-columns:1fr 1fr">
+      <article class="card"><h3>حمولة المصعد وعدد الأشخاص</h3><p>الحمولة المتعارف عليها للمباني السكنية 450 كجم لحوالي 6 أشخاص، و630 كجم لحوالي 8، و800 كجم لحوالي 10. كل ما زاد عدد الوحدات في العمارة زادت الحمولة المناسبة، والمعاينة هي اللي بتحدد الأنسب لمبناك.</p></article>
+      <article class="card"><h3>أبعاد بئر المصعد</h3><p>أبعاد البئر والـ Pit وارتفاع الـ Overhead بتحدد نوع المصعد والحمولة الممكنة. لو البئر موجود بالفعل، قيس العرض والعمق وارتفاع آخر دور، وابعتهم لنا عشان نقولك المتاح قبل المعاينة.</p></article>
+      <article class="card"><h3>الصيانة الوقائية</h3><p>فحص دوري للكابلات والفرامل والأبواب والكنترول بيكشف الأعطال قبل ما تحصل. المصعد اللي بيتصان بانتظام بيعيش أطول وبيقلل مرات التوقف المفاجئ.</p></article>
+      <article class="card"><h3>تركيب مصعد في عمارة قديمة</h3><p>ممكن يتركب في الغالب داخل بئر السلم أو في مساحة مخصصة خارجه. بنعاين الإنشاء والمساحة المتاحة الأول، وبعدها نحدد النظام المناسب ونوضح لك المطلوب كامل قبل التنفيذ.</p></article>
+    </div>
+    <p class="lead" style="margin-top:18px">المعلومات إرشادية، والقرار النهائي بيتحدد بعد المعاينة الهندسية للموقع.</p>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="eyebrow">أسئلة شائعة</div>
+    <h2>قبل ما تبدأ مشروع المصعد</h2>
+    <details><summary>إزاي أعرف نوع المصعد المناسب للمبنى؟</summary><p>الاختيار يعتمد على عدد الأدوار والاستخدام والحمولة ومساحة البئر وطبيعة المبنى. المعاينة الهندسية هي أفضل نقطة بداية.</p></details>
+    <details><summary>هل في صيانة بعد التركيب؟</summary><p>أيوه، بنوفر خطط صيانة ومتابعة بعد التشغيل، دورية وطارئة، حسب العقد.</p></details>
+    <details><summary>ينفع أجدد مصعد قديم؟</summary><p>أيوه، بنفحص المصعد ونحدد المكونات اللي محتاجة تحديث قبل ما تاخد قرار الاستبدال الكامل.</p></details>
+    <details><summary>بتوصلوا بسرعة لو حصل عطل؟</summary><p>عندنا خط طوارئ على مدار الساعة، وبنحاول نوصل في أقرب وقت ممكن.</p></details>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="eyebrow">ابدأ من معاينة صحيحة</div>
+      <h2>محتاج مصعد جديد أو عندك مصعد محتاج صيانة أو تجديد؟</h2>
+      <p>ابعتلنا تفاصيل المبنى وعدد الأدوار ومكان المشروع، وابدأ باستشارة تساعدك تحدد الحل الأنسب.</p>
+    </div>
+    <div class="box">
+      <div class="row"><span class="k">مهندس المصاعد</span><span class="v">محمد صبري</span></div>
+      <div class="row"><span class="k">الهاتف</span><span class="v">01254458177</span></div>
+      <div class="row"><span class="k">الطوارئ</span><span class="v">24 ساعة</span></div>
+      <a class="btn btn-wa" href="https://wa.me/201254458177" target="_blank" rel="noopener">واتساب: 01254458177</a>
+      <a class="btn btn-brass" href="tel:01254458177">اتصال مباشر</a>
+    </div>
+  </div>
+</section>
+
+<footer>© ڤيرتكس للمصاعد — توريد · تركيب · صيانة · إحلال وتجديد</footer>
+
+<a class="fab" href="https://wa.me/201254458177" target="_blank" rel="noopener">موجودين لمساعدتك 👋</a>
+
+<script>
+(function(){
+  var f=document.getElementById('floor'),a=document.getElementById('arrow'),
+      car=document.getElementById('car'),cable=document.getElementById('cable'),n=1,d=1;
+  function draw(){
+    f.textContent=n;a.textContent=d>0?'\u2191':'\u2193';
+    var y=(n-1)*44;
+    car.style.transform='translateY(-'+y+'px)';
+    cable.setAttribute('y2',232-y);
+  }
+  draw();
+  setInterval(function(){
+    if(n>=6)d=-1;if(n<=1)d=1;n+=d;draw();
+  },1800);
+
+  /* scroll reveal */
+  var els=document.querySelectorAll('.card,.step,.why-grid div,.work figure,details,.eng,.about>div,.box');
+  els.forEach(function(e){e.classList.add('rv')});
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}});
+    },{threshold:.12});
+    els.forEach(function(e){io.observe(e)});
+  }else{els.forEach(function(e){e.classList.add('in')})}
+
+  /* count-up stats */
+  document.querySelectorAll('.stats b[data-n]').forEach(function(b){
+    var t=+b.dataset.n,p=b.dataset.p||'',c=0,st=Math.max(1,Math.round(t/40));
+    var iv=setInterval(function(){c+=st;if(c>=t){c=t;clearInterval(iv)}b.textContent=p+c},30);
+  });
+})();
+</script>
+</body>
+</html>
